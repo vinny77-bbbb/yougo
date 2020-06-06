@@ -1,0 +1,3 @@
+<view class="orders_wrap">
+    <Tabs tabs="{{tabs}}" bind:tabItemChange="handleTabsItemChange"></Tabs>
+</view>
