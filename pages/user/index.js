@@ -15,5 +15,20 @@ Page({
             userInfo,
             collectNums: collect.length
         })
+    },
+    onShareAppMessage(){
+      return{
+        title:'这是一个很好逛的商场',
+        path:'/pages/user/index',
+        imageUrl:'../../icons/cart.png'
+      }
+    },
+    onShareTimeline(){
+      return{
+        title:'这是一个很好逛的商场',
+        path:'/pages/user/index',
+        imageUrl:'../../icons/cart.png'
+      }
     }
+
 })

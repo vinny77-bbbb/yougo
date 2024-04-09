@@ -1,0 +1,27 @@
+<!--pages/address/add/add.wxml-->
+<form bindsubmit="submit" class="form">
+  <view class="row">
+    <view class="txt">名字</view>
+    <input name="name" placeholder="请输入名字"></input>
+  </view>
+
+  <view class="row">
+    <view class="txt">电话</view>
+    <input name="phone" placeholder="请输入电话"></input>
+  </view>
+
+  <view class="row">
+    <view class="txt">所在地区</view>
+    <picker mode="region" ></picker>
+  </view>
+
+  <view class="row">
+    <view class="txt">详细地址</view>
+    <input name="name" placeholder="请输入电话"></input>
+  </view>
+
+  <view class="row">
+    <view class="txt">设置默认地址</view>
+    <input name="name" placeholder="请输入电话"></input>
+  </view>
+</form>

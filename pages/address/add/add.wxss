@@ -1,0 +1,9 @@
+/* pages/address/add/add.wxss */
+.row{
+  display: flex;
+  margin: 20px;
+  font-size: 16px;
+}
+.txt{
+  width: 30vw;
+}

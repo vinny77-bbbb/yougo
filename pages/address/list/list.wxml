@@ -1,0 +1,16 @@
+<navigator class="adds_item" wx:for="{{addsList}}" wx:key="adds_id" url="/pages/address/add/add?adds_id={{item.adds_id}}">
+  <view class='addBox'>
+    <view class='nameBox'>
+      <view> {{item.name}}</view>
+      <view> {{item.phone}}</view>
+      <view class="redTag" wx:if='{{item.isDefault}}'>默认</view>
+    </view>
+    <view>
+      <view> {{item.fullAddress}}</view>
+    </view>
+
+  </view>
+</navigator>
+<navigator url='/pages/address/add/add'>
+  <button class="addButton">新增地址</button>
+</navigator>

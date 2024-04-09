@@ -1,0 +1,23 @@
+.adds_item{
+  padding: 20px;
+  border-bottom: 1px solid silver;
+}
+.nameBox{
+  display: flex;
+}
+.nameBox view{
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.redTag{
+  color: rgb(204, 56, 56);
+}
+
+.addButton{
+  background-color: #3259a1;
+  margin-top: 40px;
+}
+.form>input{
+  height: 40px;
+}
