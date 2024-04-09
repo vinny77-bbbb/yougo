@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/address/add/add",
     "pages/user/index",
     "pages/index/index",
     "pages/category/index",
@@ -14,7 +13,8 @@
     "pages/login/index",
     "pages/auth/index",
     "pages/pay/index",
-    "pages/address/list/list"
+    "pages/address/list/list",
+    "pages/address/add/add"
     
   ],
   "window": {
